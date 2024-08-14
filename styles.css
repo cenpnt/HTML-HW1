@@ -1,0 +1,120 @@
+form {
+    border: solid black 1px;
+    padding: 20px;
+    margin: 10px;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.secondTable td, .secondTable th {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.secondTable tr:first-child th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.secondTable tr:last-child td {
+    border-bottom: 1px solid black;
+}
+
+td[rowspan] {
+    border-bottom: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.rectangle {
+    padding: 20px;
+    border: solid black 1px;
+    height: 70px;
+    width: 65px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    display: flex;
+    justify-content: end;
+}
+
+.courseTitle {
+    width: 40%;
+}
+
+.gradecredit {
+    width: 5%;
+    font-size: 10px;
+}
+
+.topic {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.small {
+    width: 10%;
+}
+
+.large {
+    width: 87%;
+}
+
+.credit {
+    text-align: center;
+    width: 85%;
+}
+
+.gpa {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gpaInput {
+    width: 10%;
+    text-align: center;
+}
+
+.total {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.container .submitBtn {
+    padding: 10px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-bottom: -10px;
+}
